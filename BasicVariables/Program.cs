@@ -49,7 +49,7 @@ namespace BasicVariables
             Console.WriteLine("my estimated networth is: " + netWorthInput);
             Console.WriteLine("my Linkedin Link is : " + linkedinInput);
 
-
+            // Casting (converting between types)
             Console.WriteLine("TypeAndCastCalculator");
             Console.WriteLine("Please enter first number  :");
             int number1 = int.Parse(Console.ReadLine());
@@ -61,6 +61,32 @@ namespace BasicVariables
 
             Console.WriteLine($"{number1} + {number2} = {sum}");
             Console.WriteLine($"{number1} / {number2} = {quotiet}");
+            Console.WriteLine("Constant Values");
+
+            // Constants
+            const double PI = 3.1415926536;
+            const double C = 299792458; // speed of light in m/s
+
+            double radius, distance;
+
+            Console.Write("Please enter the radius in m to calculate area: ");
+            radius = double.Parse(Console.ReadLine());
+
+            Console.Write("Please enter the distance in m to calculate time: ");
+            distance = double.Parse(Console.ReadLine());
+
+            double area = PI * radius * radius;
+            double time = distance / C;
+
+            Console.WriteLine($"The area of a circle of radius {radius}m is {area}m^2");
+            Console.WriteLine($"Takes {time} seconds to travel {distance}m at the speed of light C = {C}m/s");
+
+
+
+
+
+
+
 
 
 
