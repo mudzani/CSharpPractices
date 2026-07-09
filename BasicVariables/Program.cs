@@ -61,6 +61,7 @@ namespace BasicVariables
 
             Console.WriteLine($"{number1} + {number2} = {sum}");
             Console.WriteLine($"{number1} / {number2} = {quotiet}");
+<<<<<<< Updated upstream
             Console.WriteLine("Constant Values");
 
             // Constants
@@ -88,6 +89,9 @@ namespace BasicVariables
 
 
 
+=======
+            
+>>>>>>> Stashed changes
 
 
 
