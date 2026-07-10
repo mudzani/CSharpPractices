@@ -61,6 +61,8 @@ namespace BasicVariables
             double quotient = (double) number1 / number2;
 
             Console.WriteLine($"{number1} + {number2} = {sum}");
+            Console.WriteLine($"{number1} / {number2} = {quotiet}");
+
             Console.WriteLine($"{number1} / {number2} = {quotient}");
             Console.WriteLine("Constant Values");
 
@@ -81,6 +83,20 @@ namespace BasicVariables
 
             Console.WriteLine($"The area of a circle of radius {radius}m is {area}m^2");
             Console.WriteLine($"Takes {time} seconds to travel {distance}m at the speed of light C = {C}m/s");
+
+
+            Console.WriteLine("lets get it ");
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
