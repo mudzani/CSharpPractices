@@ -61,7 +61,7 @@ namespace BasicVariables
 
             Console.WriteLine($"{number1} + {number2} = {sum}");
             Console.WriteLine($"{number1} / {number2} = {quotiet}");
-<<<<<<< Updated upstream
+
             Console.WriteLine("Constant Values");
 
             // Constants
@@ -83,15 +83,12 @@ namespace BasicVariables
             Console.WriteLine($"Takes {time} seconds to travel {distance}m at the speed of light C = {C}m/s");
 
 
+            Console.WriteLine("lets get it ");
 
 
 
 
 
-
-=======
-            
->>>>>>> Stashed changes
 
 
 
