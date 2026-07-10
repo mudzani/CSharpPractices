@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace BasicVariables
 {
@@ -34,7 +35,7 @@ namespace BasicVariables
             int ageInput = int.Parse(Console.ReadLine());
             Console.Write("please enter your height in metres:");
             double heightInput = double.Parse(Console.ReadLine());
-            Console.Write("Are you are permenat citizen? Enter True or False :"); 
+            Console.Write("Are you are permanent citizen? Enter True or False :"); 
             bool permanentInput = bool.Parse(Console.ReadLine());
             Console.Write("Please enter your estimated net worth :");
             double netWorthInput = double.Parse(Console.ReadLine());
@@ -45,7 +46,7 @@ namespace BasicVariables
             Console.WriteLine("my name  is " + nameInput);
             Console.WriteLine("i am " + ageInput + " years old");
             Console.WriteLine("i am " + heightInput + " metres tall");
-            Console.WriteLine("permenat resident? " + permanentInput);
+            Console.WriteLine("permanent resident? " + permanentInput);
             Console.WriteLine("my estimated networth is: " + netWorthInput);
             Console.WriteLine("my Linkedin Link is : " + linkedinInput);
 
@@ -57,10 +58,10 @@ namespace BasicVariables
             int number2 = int.Parse(Console.ReadLine());
 
             int sum = number1 + number2;
-            double quotiet = (double) number1 / number2;
+            double quotient = (double) number1 / number2;
 
             Console.WriteLine($"{number1} + {number2} = {sum}");
-            Console.WriteLine($"{number1} / {number2} = {quotiet}");
+            Console.WriteLine($"{number1} / {number2} = {quotient}");
             Console.WriteLine("Constant Values");
 
             // Constants
@@ -80,18 +81,6 @@ namespace BasicVariables
 
             Console.WriteLine($"The area of a circle of radius {radius}m is {area}m^2");
             Console.WriteLine($"Takes {time} seconds to travel {distance}m at the speed of light C = {C}m/s");
-
-
-
-
-
-
-           
-
-
-
-
-
         }
     }
 }
