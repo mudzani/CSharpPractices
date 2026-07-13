@@ -1,5 +1,14 @@
 <Solution>
   <Folder Name="/1. Variables/">
     <Project Path="BasicVariables/BasicVariables.csproj" />
+    <Project Path="BooleanVote/BooleanVote.csproj" Id="d57e99c3-7100-468f-be51-53e0412b67f7" />
+    <Project Path="ConfigurationSettings/ConfigurationSettings.csproj" Id="beba7ae6-49ea-4d0c-a9ae-e6ff0deb62a2" />
+    <Project Path="ConstantVariables/ConstantVariables.csproj" Id="844d3e93-6980-4593-9279-7c26c0c6515d" />
+    <Project Path="DataProcessingUtility/DataProcessingUtility.csproj" Id="d7502252-ad26-4809-8574-bc9b621afe0b" />
+    <Project Path="LegacyDataProcessing/LegacyDataProcessing.csproj" Id="e3807b91-1a0d-49b2-8bde-e5e02ed85efe" />
+    <Project Path="TypeAndCastCalculator/TypeAndCastCalculator.csproj" Id="296b8e12-b18f-4e00-9908-2d5135161dae" />
+    <Project Path="UserProfileInput/UserProfileInput.csproj" Id="cb2e3729-c9bb-45f1-89f4-8c81b2bf598e" />
   </Folder>
+  <Folder Name="/2. Operators/" />
+  <Folder Name="/3. Strings/" />
 </Solution>
