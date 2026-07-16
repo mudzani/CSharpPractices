@@ -25,6 +25,21 @@ namespace BasicVariables
             Console.WriteLine("I am a permanent resident: " + isPermanentResident);
             Console.WriteLine($"My Estimated net worth is: {myEstimatedNetWorth} ");
             Console.WriteLine("My LinkedIn profile is: " + myLinkedin);
+            // Prompt the user to enter values
+            Console.Write("Please enter your name: ");
+            string userName = Console.ReadLine();
+            Console.Write("Please enter your age: ");
+            int userAge = int.Parse(Console.ReadLine());
+            Console.Write("please enter your height in meters: ");
+            double userHeight = double.Parse(Console.ReadLine());
+            Console.Write("Are you a permanent resident? (true/false): ");
+            bool userIsPermanentResident = bool.Parse(Console.ReadLine());
+            Console.Write("Please enter your estimated net worth:");
+            double userEstimatedNetWorth = double.Parse(Console.ReadLine());
+            Console.Write("Please enter your LinkedIn profile URL: ");
+            String userLinkedin = Console.ReadLine();
+
+
 
 
 
