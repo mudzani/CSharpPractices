@@ -18,13 +18,6 @@ namespace BasicVariables
             var myEstimatedNetWorth = 1000000.50;
             var myLinkedin = "https://www.linkedin.com/in/Donald";
 
-            // Print the user's name to the console
-            Console.WriteLine("my name is " + myName);
-            Console.WriteLine($"I am {myAge} years ");
-            Console.WriteLine("I am {0} m tall",myHeight);
-            Console.WriteLine("I am a permanent resident: " + isPermanentResident);
-            Console.WriteLine($"My Estimated net worth is: {myEstimatedNetWorth} ");
-            Console.WriteLine("My LinkedIn profile is: " + myLinkedin);
             // Prompt the user to enter values
             Console.Write("Please enter your name: ");
             string userName = Console.ReadLine();
@@ -39,6 +32,7 @@ namespace BasicVariables
             Console.Write("Please enter your LinkedIn profile URL: ");
             String userLinkedin = Console.ReadLine();
             Console.WriteLine("");
+
             // Print the user's input to the console
             Console.WriteLine("My name is: " + userName);
             Console.WriteLine($"I am {userAge} years old.");
