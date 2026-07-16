@@ -9,6 +9,7 @@ namespace BasicVariables
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            // Declare a variable to hold the user's name
         }
 
     }
