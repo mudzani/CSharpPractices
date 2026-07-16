@@ -38,6 +38,14 @@ namespace BasicVariables
             double userEstimatedNetWorth = double.Parse(Console.ReadLine());
             Console.Write("Please enter your LinkedIn profile URL: ");
             String userLinkedin = Console.ReadLine();
+            Console.WriteLine("");
+            // Print the user's input to the console
+            Console.WriteLine("My name is: " + userName);
+            Console.WriteLine($"I am {userAge} years old.");
+            Console.WriteLine("I am {0} m tall", userHeight);
+            Console.WriteLine("Permanent resident?: " + userIsPermanentResident);
+            Console.WriteLine($"My estimated net worth is: {userEstimatedNetWorth}");
+            Console.WriteLine("My LinkedIn profile is: " + userLinkedin);
 
 
 
