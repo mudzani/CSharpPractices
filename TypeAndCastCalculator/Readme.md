@@ -1,6 +1,6 @@
 
 
-Typeandcastcalculator readme · MD
+
 # Data Types and Casting
  
 > **( Data Types and Casting)**
