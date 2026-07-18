@@ -28,7 +28,7 @@ namespace BasicVariables
             Console.Write("Are you a permanent resident? (true/false): ");
             bool userIsPermanentResident = bool.Parse(Console.ReadLine());
             Console.Write("Please enter your estimated net worth:");
-            double userEstimatedNetWorth = double.Parse(Console.ReadLine());
+            decimal userEstimatedNetWorth = decimal.Parse(Console.ReadLine());
             Console.Write("Please enter your LinkedIn profile URL: ");
             String userLinkedin = Console.ReadLine();
             Console.WriteLine("");
@@ -41,7 +41,7 @@ namespace BasicVariables
             Console.WriteLine($"My estimated net worth is: {userEstimatedNetWorth}");
             Console.WriteLine("My LinkedIn profile is: " + userLinkedin);
 
-
+            //Done 
 
 
 
