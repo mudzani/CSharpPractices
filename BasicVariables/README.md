@@ -1,6 +1,6 @@
 # Variable Declaration, Initialization, Assignment and Display
 
-> **Chapter 1 – Variables**
+> **Variables**
 
 This project is part of the **CSharpPractice** repository, a structured collection of C# exercises and projects designed to strengthen programming fundamentals through practical implementation and professional software development practices.
 
@@ -48,7 +48,6 @@ The objectives of this project are to:
 
 | Folder/File | Description |
 |-------------|-------------|
-| Images | Stores screenshots and diagrams used in the documentation. |
 | Program.cs | Contains the source code for the exercise. |
 | README.md | Project documentation. |
 
@@ -119,11 +118,7 @@ The application follows the workflow below.
 
 ## Flowchart
 
-> *(Insert Flowchart image here)*
-
-```markdown
-(diagram.png
-```
+<img width="1598" height="884" alt="diagram" src="https://github.com/user-attachments/assets/d523411d-52ca-4bb9-ac04-258771b38e28" />
 
 ---
 
@@ -131,11 +126,7 @@ The application follows the workflow below.
 
 The user runs the application, enters their nickname, age, height, residency status, estimated net worth, and LinkedIn profile when prompted, and the system displays a formatted summary back to the console.
 
-> *(Insert Use Case Diagram here)*
-
-```markdown
-![Use Case Diagram](Images/UseCaseDiagram.png)
-```
+<img width="1598" height="884" alt="diagram (1)" src="https://github.com/user-attachments/assets/30d0171f-05f0-431e-b603-036894098178" />
 
 
 
@@ -171,26 +162,11 @@ The project was tested to verify that:
 
 # Sample Output
 
-> *(Insert screenshot here)*
-
-```markdown
-![Program Output](Images/ProgramOutput.png)
-```
+<img width="590" height="247" alt="Screenshot 2026-07-16 182326" src="https://github.com/user-attachments/assets/9c34a77d-2725-4b2c-876c-c1af045f1337" />
 
 
 
 
----
-
-# References
-
-- Microsoft Learn
-- Microsoft C# Documentation
-- .NET Documentation
-- Visual Studio Documentation
-- Git Documentation
-- GitHub Documentation
-- C# .NET Practices Exercise Suite (Course Material)
 
 ---
 
