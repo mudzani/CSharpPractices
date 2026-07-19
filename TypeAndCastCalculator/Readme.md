@@ -47,7 +47,6 @@ The objectives of this project are to:
  
 | Folder/File | Description |
 |-------------|-------------|
-
 | Program.cs | Contains the source code for the exercise. |
 | README.md | Project documentation. |
  
