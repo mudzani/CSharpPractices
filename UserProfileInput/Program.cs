@@ -4,7 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World UserProfileInput!");
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter your nickname (optional): ");
+            string? nickname = Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
