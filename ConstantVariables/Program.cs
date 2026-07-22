@@ -24,7 +24,7 @@
             double time = distance / C;
             Console.WriteLine($"Takes {time} seconds to travel {distance}m at the speed of light C = {C}m/s");
 
-            // i will  complete  tomorrow the rest of the code 
+            // i will  complete  tomorrow the rest of the code  
         }
     }
 }
