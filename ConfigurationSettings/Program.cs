@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            string? savedTheme = null;
+            Console.Write("Enter saved theme (leave blank to simulate missing file)");
+            string? savedTheme = Console.ReadLine();
             string currentTheme = savedTheme ?? "Blue";
+            Console.WriteLine($"Current theme: {currentTheme}");
         }
     }
 }
