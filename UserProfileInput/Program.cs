@@ -10,7 +10,21 @@
             Console.Write("Enter your nickname (optional): ");
             string? nickname = Console.ReadLine();
 
+            if (nickname == "")
+            {
+                nickname = null;
+            }
 
+            Console.WriteLine("");
+            Console.WriteLine($"Name: {name}");
+            if (nickname == null)
+            {
+                Console.WriteLine("No nickname provided");
+            }
+            else
+            {
+                Console.WriteLine($"Nickname: {nickname}");
+            }
 
 
 
